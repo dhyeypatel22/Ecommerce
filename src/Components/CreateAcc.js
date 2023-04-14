@@ -62,7 +62,10 @@ function CreateAcc() {
         <div className="left">
           <div className="overlay">
             <h1>Basil.</h1>
-            <p>Basil is well-known brand providing quality products at lowest price.</p>
+            <p>
+              Basil is well-known brand providing quality products at lowest
+              price.
+            </p>
             <span>
               <p>Have an account?</p>
               <a href="/signup">Login</a>
