@@ -13,6 +13,34 @@ function Shop() {
     Signup("/signup");
   };
 
+  const goToSpro1 = () => {
+    navigate("/spro1");
+  };
+
+  const goToSpro2 = () => {
+    navigate("/spro2");
+  };
+
+  const goToSpro3 = () => {
+    navigate("/spro3");
+  };
+
+  const goToSpro4 = () => {
+    navigate("/spro4");
+  };
+
+  const goToSpro5 = () => {
+    navigate("/spro5");
+  };
+
+  const goToSpro6 = () => {
+    navigate("/spro6");
+  };
+
+  const goToSpro7 = () => {
+    navigate("/spro7");
+  };
+
   return (
     <>
       <section id="page-header">
@@ -50,9 +78,10 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹850</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
-          <div className="pro" onClick={goToSproduct}>
+          <div className="pro" onClick={goToSpro1}>
             <img
               src={require("../img2/f2.jpg")}
               alt="not found"
@@ -80,9 +109,10 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹850</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
-          <div className="pro" onClick={goToSproduct}>
+          <div className="pro" onClick={goToSpro2}>
             <img
               src={require("../img2/f3.jpg")}
               alt="not found"
@@ -108,9 +138,10 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹850</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
-          <div className="pro" onClick={goToSproduct}>
+          <div className="pro" onClick={goToSpro3}>
             <img
               src={require("../img2/f4.jpg")}
               alt="not found"
@@ -138,9 +169,10 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹850</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
-          <div className="pro" onClick={goToSproduct}>
+          <div className="pro" onClick={goToSpro4}>
             <img
               src={require("../img2/f5.jpg")}
               alt="not found"
@@ -167,9 +199,10 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹850</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
-          <div className="pro" onClick={goToSproduct}>
+          <div className="pro" onClick={goToSpro5}>
             <img
               src={require("../img2/f6.jpg")}
               alt="not found"
@@ -197,9 +230,10 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹950</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
-          <div className="pro" onClick={goToSproduct}>
+          <div className="pro" onClick={goToSpro6}>
             <img
               src={require("../img2/f7.jpg")}
               alt="not found"
@@ -224,9 +258,10 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹650</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
-          <div className="pro" onClick={goToSproduct}>
+          <div className="pro" onClick={goToSpro7}>
             <img
               src={require("../img2/f8.jpg")}
               alt="not found"
@@ -252,6 +287,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹550</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
           <div className="pro" onClick={goToSproduct}>
@@ -282,6 +318,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹900</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
           <div className="pro" onClick={goToSproduct}>
@@ -310,6 +347,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹800</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
           <div className="pro" onClick={goToSproduct}>
@@ -340,6 +378,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹900</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
           <div className="pro" onClick={goToSproduct}>
@@ -367,6 +406,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹850</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
           <div className="pro" onClick={goToSproduct}>
@@ -396,6 +436,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹950</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
           <div className="pro" onClick={goToSproduct}>
@@ -426,6 +467,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹650</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
           <div className="pro" onClick={goToSproduct}>
@@ -455,6 +497,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹950</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
           <div className="pro" onClick={goToSproduct}>
@@ -483,6 +526,7 @@ function Shop() {
                 <i className="fas fa-star" />
               </div>
               <h4>₹750</h4>
+              <a href="/" className="normal">🛒</a>
             </div>
           </div>
         </div>

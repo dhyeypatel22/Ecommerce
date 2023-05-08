@@ -67,7 +67,7 @@ function CreateAcc() {
               price.
             </p>
             <span>
-              <p>Have an account?</p>
+              <p>Already have an account?</p>
               <a href="/signup">Login</a>
             </span>
           </div>

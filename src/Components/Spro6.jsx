@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 // }
 
 
-function Sproduct() {
+function Spro6() {
   const Signup = useNavigate();
   const goToSignUp = () => {
     Signup("/signup");
@@ -32,9 +32,9 @@ function Sproduct() {
   const product = [
   {
     id: 1,
-    name: "Floral Printed Shirts",
-    price: 850,
-    image: require("../img2/f1.jpg"),
+    name: "Floral Relexed Fits",
+    price: 650,
+    image: require("../img2/f7.jpg"),
     sizes: ["Select Size", "XXL", "XL", "Large", "Medium"],
     details:  "Printed casual shirt, has a spread collar, short sleeves, and curvedhem. Solid colors and comfy cotton have their own place, but what wereally love is donning a bold, fun printed shirt that brightens upany room we step in. Moreover, this printed casual shirt, has aspread collar, short sleeves, and curved hem"
   },
@@ -249,4 +249,4 @@ function Sproduct() {
   );
 }
 
-export default Sproduct;
+export default Spro6;
