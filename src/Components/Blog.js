@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "../Style.css";
 import { useNavigate } from "react-router-dom";
 function Blog() {
@@ -8,6 +10,7 @@ function Blog() {
   };
   return (
     <>
+    <Navbar />
       <section id="page-header" className="blog-header">
         <h2>#ReadMore</h2>
         <p>Read all case studies about our products!</p>
@@ -108,6 +111,7 @@ function Blog() {
           </button>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
