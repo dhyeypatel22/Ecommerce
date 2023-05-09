@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "../Style.css";
 import { useNavigate } from "react-router-dom";
 
@@ -20,6 +22,7 @@ function Cart() {
 
   return (
     <>
+    <Navbar />
       <section id="page-header" className="cart-header">
         <h2>#cart</h2>
         <p>Time to Start Shopping!</p>
@@ -146,6 +149,7 @@ function Cart() {
           </button>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
