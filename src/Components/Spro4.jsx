@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "../Style.css";
 import { useNavigate } from "react-router-dom";
 
@@ -43,6 +45,7 @@ function Spro4() {
 
   return (
     <>
+    <Navbar />
     {product.map((product) => (
         <section id="prodetails" className="section-p1" key={product.id}>
           <div className="single-pro-image">
@@ -244,6 +247,7 @@ function Spro4() {
           </button>
         </div>
       </section>
+      <Footer />
 
     </>
   );
