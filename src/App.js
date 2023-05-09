@@ -1,9 +1,9 @@
 import "./App.css";
 import "./Style.css";
 import Main from "./Components/Main";
-import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
 import Shop from "./Components/Shop";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Blog from "./Components/Blog";
 import About from "./Components/About";
@@ -27,7 +27,6 @@ function App() {
     <>
       <BrowserRouter>
       <ScrollToTop />
-        <Navbar />
         <Routes>
           <Route exact path="/" element={<Main />} />
           <Route exact path="/shop" element={<Shop />} />
@@ -47,7 +46,6 @@ function App() {
           <Route exact path="/order" element={<Order />} />
           <Route exact path="/create" element={<CreateAcc />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </>
   );
