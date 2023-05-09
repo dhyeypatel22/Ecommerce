@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "../Style.css";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +11,7 @@ function Contact() {
   };
   return (
     <>
+    <Navbar />
       <section id="page-header" className="contact-header">
         <h2>#Let's_talk</h2>
         <p>LEAVE A MESSAGE, We love to hear from you!</p>
@@ -119,6 +122,7 @@ function Contact() {
           </button>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
