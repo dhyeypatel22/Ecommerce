@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "../Style.css";
 import { useNavigate } from "react-router-dom";
 
@@ -43,6 +45,7 @@ function Shop() {
 
   return (
     <>
+    <Navbar />
       <section id="page-header">
         <h2>#BeUnstoppable</h2>
         <p>Choose From Wide Range Of Mens Fashion Apparels!</p>
@@ -553,6 +556,7 @@ function Shop() {
           </button>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
