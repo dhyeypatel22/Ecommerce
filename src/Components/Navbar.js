@@ -1,6 +1,6 @@
-import React from "react";
-import "../Style.css";
+import React, { useRef } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import "../Style.css";
 
 function Navbar() {
   const Home = useNavigate();
@@ -8,16 +8,33 @@ function Navbar() {
     Home("/");
   };
 
+  const logoRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    if (logoRef.current) {
+      logoRef.current.style.cursor = "pointer";
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (logoRef.current) {
+      logoRef.current.style.cursor = "default";
+    }
+  };
+
   return (
     <>
       <section id="header">
         <img
+          ref={logoRef}
           src={require("../img/logoB2.png")}
           className="logo"
           alt="logo"
           height={40}
           width={90}
           onClick={goToMain}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         />
 
         <div>
@@ -51,3 +68,4 @@ function Navbar() {
 }
 
 export default Navbar;
+  

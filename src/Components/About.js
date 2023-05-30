@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "../Style.css";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +11,7 @@ function About() {
   };
   return (
     <>
+    <Navbar />
       <section id="page-header" className="about-header">
         <h2>#KnowUs</h2>
         <p>We'er in the business to improve livestyles!</p>
@@ -95,6 +98,7 @@ function About() {
           </button>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

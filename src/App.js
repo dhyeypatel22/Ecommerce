@@ -1,9 +1,7 @@
 import "./App.css";
 import "./Style.css";
 import Main from "./Components/Main";
-// import Navbar from "./Components/Navbar";
 import Shop from "./Components/Shop";
-// import Footer from "./Components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Blog from "./Components/Blog";
 import About from "./Components/About";
